@@ -5,7 +5,7 @@ import logging
 
 def ping_endpoints():
     endpoints = [
-        "https://minglify-agent-matching.onrender.com/"
+        "https://minglify-agent-matching.onrender.com/health"
     ]
     
     for url in endpoints:
